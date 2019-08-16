@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
-# AOSiP Device Settings
+# dotOS Device Settings
 PRODUCT_PACKAGES += \
     DeviceSettings
 

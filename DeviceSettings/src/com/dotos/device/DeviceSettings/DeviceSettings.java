@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.dotos.device.DeviceSettings;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -39,8 +39,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.util.Log;
 
-import com.android.internal.util.aosip.FileUtils;
-import com.aosip.device.DeviceSettings.Constants;
+import com.android.internal.util.dotos.FileUtils;
+import com.dotos.device.DeviceSettings.Constants;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {

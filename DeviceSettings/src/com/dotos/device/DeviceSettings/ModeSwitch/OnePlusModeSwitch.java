@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.dotos.device.DeviceSettings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,11 +24,11 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceManager;
 
-import com.aosip.device.DeviceSettings.DeviceSettings;
+import com.dotos.device.DeviceSettings.DeviceSettings;
 
-public class AdaptiveModeSwitch implements OnPreferenceChangeListener {
+public class OnePlusModeSwitch implements OnPreferenceChangeListener {
 
-    private static final String FILE = "/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/adaption_mode";
+    private static final String FILE = "/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/oneplus_mode";
 
     public static String getFile() {
         if (Utils.fileWritable(FILE)) {

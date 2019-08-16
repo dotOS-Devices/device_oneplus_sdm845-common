@@ -32,7 +32,7 @@
 
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>com.aosip.device.DeviceSettings.KeyHandler</item>
+        <item>com.dotos.device.DeviceSettings.KeyHandler</item>
     </string-array>
 
     <!-- Specify custom blanking delay of the display -->
